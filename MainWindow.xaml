@@ -4,9 +4,80 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdvancedCTRL"
-        mc:Ignorable="d"
-        Title="AdvancedCTRL" Height="450" Width="800">
+        xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+        mc:Ignorable="d" Height="720" Width="1280" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent">
     <Grid>
-    
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!-- Barra de acesso da esquerda-->
+        <Border CornerRadius="10 0 0 10">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#012E40" Offset="0"/>
+                    <GradientStop Color="#012E4b" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <StackPanel>
+                <!-- Nome do usuário -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 35 0 0">
+                    <Border CornerRadius="10" Width="40" Height="40">
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                                <GradientStop Color="#3CA6A6" Offset="0"/>
+                                <GradientStop Color="#012E4b" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+
+                        <TextBlock Text="DB" Foreground="#F2E3D5" FontSize="28" FontWeight="SemiBold" TextAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 2" FontFamily="/Assets/Fonts/#Squada One"/>
+                    </Border>
+
+                    <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
+                        <TextBlock Text="Daniel Birenbaum" FontSize="18" Foreground="#F2E3D5" Margin="0 0 0 5" FontFamily="/Assets/Fonts/#Squada One"/>
+                        <TextBlock Text="Alpha 1.1.0" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <Separator Height="0.5" Margin="20 30" Background="#F2E3D5"/>
+                
+                <!--Botões da barra de acesso-->
+                <Button Style="{StaticResource menuButtonActive}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Computer" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Principal" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Microchip" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Processador" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+                
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="HardDrive" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Disco Rígido" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+
+            </StackPanel>
+        </Border>
+        
+        <!--Seção principal-->
+        <Border Grid.Column="1" CornerRadius="0 10 10 0" MouseDown="Border_MouseDown">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                    <GradientStop Color="#026773" Offset="0"/>
+                    <GradientStop Color="#012E40" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
     </Grid>
 </Window>
