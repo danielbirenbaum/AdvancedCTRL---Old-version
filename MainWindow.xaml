@@ -38,7 +38,7 @@
 
                     <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
                         <TextBlock Text="Daniel Birenbaum" FontSize="18" Foreground="#F2E3D5" Margin="0 0 0 5" FontFamily="/Assets/Fonts/#Squada One"/>
-                        <TextBlock Text="Alpha 1.1.0" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
+                        <TextBlock Text="Alpha 1.1.1" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
                     </StackPanel>
                 </StackPanel>
 
@@ -47,7 +47,7 @@
                 <!--Botões da barra de acesso-->
                 <Button Style="{StaticResource menuButtonActive}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Computer" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIncon}"/>
                         <TextBlock Text="Principal" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -61,11 +61,40 @@
                 
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Desktop" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Placa Gráfica" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Memory" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="RAM" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Fan" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Ventoinhas" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
+                
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
                         <fa:IconImage Icon="HardDrive" Style="{StaticResource menuButtonIncon}"/>
                         <TextBlock Text="Disco Rígido" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
 
+                <Separator Height="0.5" Margin="20 30" Background="#F2E3D5"/>
+
+                <Button Style="{StaticResource menuButton}">
+                    <StackPanel Orientation="Horizontal">
+                        <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIncon}"/>
+                        <TextBlock Text="Configurações" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
+                    </StackPanel>
+                </Button>
 
             </StackPanel>
         </Border>
