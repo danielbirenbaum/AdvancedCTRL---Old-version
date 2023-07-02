@@ -6,6 +6,6 @@ Aqui estarão as instruções relacionadas ao andamento do projeto e funcionamento 
 
 ## Versão 1.1.2
 
-Versão 1.1.1 -> Concluiu a Barra Lateral, com os botões que estavam restando.\  
+Versão 1.1.1 -> Concluiu a Barra Lateral, com os botões que estavam restando\  
 Versão 1.1.2 -> Começo da construção da Página Principal, botões superiores na esquerda.
 
