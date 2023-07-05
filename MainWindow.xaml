@@ -38,7 +38,7 @@
 
                     <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
                         <TextBlock Text="Daniel Birenbaum" FontSize="18" Foreground="#F2E3D5" Margin="0 0 0 5" FontFamily="/Assets/Fonts/#Squada One"/>
-                        <TextBlock Text="Alpha 1.1.4" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
+                        <TextBlock Text="Alpha 1.1.5" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
                     </StackPanel>
                 </StackPanel>
 
@@ -47,7 +47,7 @@
                 <!--Botão da Home-->
                 <Button Style="{StaticResource menuButtonActive}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Principal" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -55,7 +55,7 @@
                 <!--Botão do Processador -->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Microchip" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Microchip" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Processador" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -63,7 +63,7 @@
                 <!--Botão da Placa Gráfica-->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Desktop" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Desktop" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Placa Gráfica" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -71,7 +71,7 @@
                 <!--Botão da RAM-->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Memory" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Memory" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="RAM" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -79,7 +79,7 @@
                 <!--Botão da Ventoinha-->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Fan" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Fan" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Ventoinhas" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -87,7 +87,7 @@
                 <!--Botão do Disco Rígido-->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="HardDrive" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="HardDrive" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Disco Rígido" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -97,16 +97,16 @@
                 <!--Botão de Configurações-->
                 <Button Style="{StaticResource menuButton}">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="Gear" Style="{StaticResource menuButtonIcon}"/>
                         <TextBlock Text="Configurar" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
 
 
                 <!--Botão de Sair-->
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource closeButton}" Name="CloseButton" Click="OnClickClose">
                     <StackPanel Orientation="Horizontal">
-                        <fa:IconImage Icon="PowerOff" Style="{StaticResource menuButtonIncon}"/>
+                        <fa:IconImage Icon="PowerOff" Style="{StaticResource closeButtonIcon}"/>
                         <TextBlock Text="Sair" FontFamily="/Assets/Fonts/#Squada One" Style="{StaticResource menuButtonText}"/>
                     </StackPanel>
                 </Button>
@@ -138,12 +138,11 @@
                 
                 <!--Título-->
                 <TextBlock Text="Seja bem-vindo novamente!" FontSize="45" Foreground="#F2E3D5" FontFamily="/Assets/Fonts/#Squada One" HorizontalAlignment="Left" Margin="50 35 0 20"/>
-
+                
                 <!--Vídeo explicativo-->
-                <Grid Grid.Row="1" Margin="100 30 100 40">
-                    <!--Local que será colocado o vídeo, ou pelo menos sua thumb-->
+                <!--<Grid Grid.Row="1" Margin="100 30 100 40">
                     <Image Source="/Assets/Images/temporario.jpg" Name="ThumbVideo"/>
-                </Grid>
+                </Grid>-->
             </Grid>
         </Border>
     </Grid>

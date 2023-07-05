@@ -32,5 +32,10 @@ namespace AdvancedCTRL
                 this.DragMove();
             }
         }
+
+        private void OnClickClose(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
