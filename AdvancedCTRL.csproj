@@ -9,7 +9,9 @@
 
   <ItemGroup>
     <None Remove="Assets\Fonts\SquadaOne.ttf" />
+    <None Remove="Assets\Images\logo.png" />
     <None Remove="Assets\Images\temporario.jpg" />
+    <None Remove="Assets\Images\temporario2.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +20,9 @@
 
   <ItemGroup>
     <Resource Include="Assets\Fonts\SquadaOne.ttf" />
+    <Resource Include="Assets\Images\logo.png" />
     <Resource Include="Assets\Images\temporario.jpg" />
+    <Resource Include="Assets\Images\temporario2.jpg" />
   </ItemGroup>
 
 </Project>
