@@ -38,7 +38,7 @@
 
                     <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
                         <TextBlock Text="AdvancedCTRL" FontSize="18" Foreground="#F2E3D5" Margin="0 0 0 5" FontFamily="/Assets/Fonts/#Squada One"/>
-                        <TextBlock Text="Alpha 1.1.6" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
+                        <TextBlock Text="Alpha 1.1.7" FontSize="18" Foreground="#3CA6A6" FontFamily="/Assets/Fonts/#Squada One"/>
                     </StackPanel>
                 </StackPanel>
 
