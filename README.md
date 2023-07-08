@@ -12,3 +12,4 @@ Versão 1.1.3 -> Criação de uma Grid para comportar a thumbnail do vídeo explicat
 Versão 1.1.4 -> Consolidação da Grid.  
 Versão 1.1.5 -> Botão de sair funcional, polimento de cores e correções, espaço do vídeo comentado   
 Versão 1.1.6 -> Correções de estilos gráficos, modificação da logo e reatribuição da imagem    
+Versão 1.1.7 -> Ícone do aplicativo   
