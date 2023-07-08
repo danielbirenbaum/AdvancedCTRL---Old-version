@@ -4,7 +4,7 @@
 
 Aqui estarão as instruções relacionadas ao andamento do projeto e funcionamento da aplicação em geral, algo como uma explicação geral sobre os arquivos, suas funções, e como altera-lás da forma correta . 
 
-## Versão 1.1.6
+## Versão 1.1.7
 
 Versão 1.1.1 -> Concluiu a Barra Lateral, com os botões que estavam restando     
 Versão 1.1.2 -> Começo da construção da Página Principal, botões superiores na esquerda   
