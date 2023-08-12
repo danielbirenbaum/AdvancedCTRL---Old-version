@@ -1,15 +1,17 @@
-# AdvancedCTRL
+# AdvancedCTRL (Vers√£o Depreciada)
+
+# N√£o ser√° mais utilizado C# para desenvolver o projeto
 
 *Bem vindo ao arquivo README do projeto AdvancedCTRL*
 
-Aqui estar„o as instruÁıes relacionadas ao andamento do projeto e funcionamento da aplicaÁ„o em geral, algo como uma explicaÁ„o geral sobre os arquivos, suas funÁıes, e como altera-l·s da forma correta . 
+Aqui estar√£o as instru√ß√µes relacionadas ao andamento do projeto e funcionamento da aplica√ß√£o em geral, algo como uma explica√ß√£o geral sobre os arquivos, suas fun√ß√µes, e como altera-l√°s da forma correta . 
 
-## Vers„o 1.1.7
+## Vers√£o 1.1.7
 
-Vers„o 1.1.1 -> Concluiu a Barra Lateral, com os botıes que estavam restando     
-Vers„o 1.1.2 -> ComeÁo da construÁ„o da P·gina Principal, botıes superiores na esquerda   
-Vers„o 1.1.3 -> CriaÁ„o de uma Grid para comportar a thumbnail do vÌdeo explicativo   
-Vers„o 1.1.4 -> ConsolidaÁ„o da Grid.  
-Vers„o 1.1.5 -> Bot„o de sair funcional, polimento de cores e correÁıes, espaÁo do vÌdeo comentado   
-Vers„o 1.1.6 -> CorreÁıes de estilos gr·ficos, modificaÁ„o da logo e reatribuiÁ„o da imagem    
-Vers„o 1.1.7 -> Õcone do aplicativo   
+Vers√£o 1.1.1 -> Concluiu a Barra Lateral, com os bot√µes que estavam restando     
+Vers√£o 1.1.2 -> Come√ßo da constru√ß√£o da P√°gina Principal, bot√µes superiores na esquerda   
+Vers√£o 1.1.3 -> Cria√ß√£o de uma Grid para comportar a thumbnail do v√≠deo explicativo   
+Vers√£o 1.1.4 -> Consolida√ß√£o da Grid.  
+Vers√£o 1.1.5 -> Bot√£o de sair funcional, polimento de cores e corre√ß√µes, espa√ßo do v√≠deo comentado   
+Vers√£o 1.1.6 -> Corre√ß√µes de estilos gr√°ficos, modifica√ß√£o da logo e reatribui√ß√£o da imagem    
+Vers√£o 1.1.7 -> √çcone do aplicativo   
